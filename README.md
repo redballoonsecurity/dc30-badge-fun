@@ -6,4 +6,5 @@ Includes:
 - `shroomscreen.data`: 1-bit image of OFRAK's mushroom mascot, which can replace the badge's existing boot splash screen.
 
 The Python script can be run in an OFRAK Docker image with the command: 
+
 `docker run -it --rm -v <PATH-TO-THIS-DIRECTORY>:/project --entrypoint bash <OFRAK-DOCKER-IMAGE-NAME> -c "cd /project && python3 ofrak_scripts.py"`
