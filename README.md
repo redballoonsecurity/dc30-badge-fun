@@ -21,5 +21,5 @@ docker run \
   --rm \
   --volume "$(pwd)":/project \
   --entrypoint bash -c "cd /project && python3 ofrak_scripts.py" \
-  redballoonsecurity/ofrak/ghidra:latest  # Swap this out if using a different OFRAK backend
+  redballoonsecurity/ofrak/ghidra:latest  # Swap this out if using a different OFRAK Docker image
 ```
